@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactMapboxGl, { Marker } from 'react-mapbox-gl';
 
-class WorldMap extends Component {
+class RobotMap extends Component {
     constructor(props) {
       super(props);
       this.state = {
@@ -17,8 +17,9 @@ class WorldMap extends Component {
       });
       return (
         <>
-            <p>Ominous tagline here</p>
-          <h4>Currently 3,467,856 Humans Alive...</h4>
+          <h4>Starbucks Map Page</h4>
+          <h4>User will be redirected here after submitting zip</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut porro, saepe quia dolorum in accusamus necessitatibus, pariatur, totam fugiat aspernatur recusandae laboriosam quasi inventore soluta veniam quos. Animi, corrupti dolor.</p>
           <Map
             height='200px'
             style={`mapbox://styles/garrettmoore/cjtt6bbyl06i81fnrf8jrb24u`}
@@ -43,5 +44,5 @@ class WorldMap extends Component {
     }
   }
   
-  export default WorldMap;
+  export default RobotMap;
   

@@ -17,13 +17,13 @@ class RobotMap extends Component {
       });
       return (
         <>
-          <h4>Starbucks Map Page</h4>
-          <h4>User will be redirected here after submitting zip</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut porro, saepe quia dolorum in accusamus necessitatibus, pariatur, totam fugiat aspernatur recusandae laboriosam quasi inventore soluta veniam quos. Animi, corrupti dolor.</p>
+          <h4>ROBOT MAP PAGE</h4>
+          <h4>STUFF HERE ROBOT</h4>
+          <p>HARSH ZONES BELOW / AVOID</p>
           <Map
             height='200px'
             style={`mapbox://styles/garrettmoore/cjtt6bbyl06i81fnrf8jrb24u`}
-            zoom={[13.5]}
+            zoom={[1.5]}
             center={[this.state.lon, this.state.lat]}
             containerStyle={{ height: '40em' }}>
             <Marker

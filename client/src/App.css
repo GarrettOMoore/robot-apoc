@@ -41,6 +41,7 @@
   /* border: 5px solid red; */
   text-align: justify;
   border-bottom: 5px solid red;
+  border-right: 5px solid red;
 }
 
 button {
@@ -53,4 +54,13 @@ input {
 
 .Title {
   font-family: 'Orbitron', sans-serif;
+}
+
+.button-box {
+  margin-top: 10px; 
+}
+
+.button-box button {
+  padding: 4px;
+  margin: 8px;
 }

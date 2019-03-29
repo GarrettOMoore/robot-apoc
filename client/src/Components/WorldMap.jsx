@@ -3,6 +3,7 @@ import ReactMapboxGl, { Marker } from 'react-mapbox-gl';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import RobotMap from './RobotMap';
 import StarbucksMap from './StarbucksMap';
+import { Layer } from 'react-mapbox-gl';
 
 class WorldMap extends Component {
     constructor(props) {
@@ -37,22 +38,14 @@ class WorldMap extends Component {
           {/* <h4>Currently {this.state.humansAlive} Humans Alive...</h4> */}
           <Map
             height='200px'
-            style={`mapbox://styles/garrettmoore/cjtt6bbyl06i81fnrf8jrb24u`}
+            style={`mapbox://styles/garrettmoore/cjtue98zq02341fmk3f1n4spc`}
             zoom={[1.5]}
-            center={[this.state.lon, this.state.lat]}
+            // center={[this.state.lon, this.state.lat]}
             containerStyle={{ height: '40em' }}>
-            <Marker
-              coordinates={[this.state.lon, this.state.lat]}
-              anchor='bottom'>
-              <img
-                alt='marker'
-                src={
-                  'https://www.shareicon.net/download/2015/12/05/682942_map.svg'
-                }
-                width='42px'
-                height='42px'
-              />
-            </Marker>
+            <Layer
+              style={`mapbox://styles/garrettmoore/cjtue98zq02341fmk3f1n4spc`}
+             />
+
           </Map>
 
 

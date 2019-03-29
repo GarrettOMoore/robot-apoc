@@ -28,7 +28,6 @@ class App extends Component {
 <News />
 {/* <NewsDetail /> */}
         <SignUp />
-        <News />
 </div>
 
     );

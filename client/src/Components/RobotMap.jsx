@@ -22,12 +22,12 @@ class RobotMap extends Component {
           <p>HARSH ZONES BELOW / AVOID</p>
           <Map
             height='200px'
-            style={`mapbox://styles/garrettmoore/cjtugkdx6002k1fny6sd7rj5b`}
+            style={`mapbox://styles/garrettmoore/cjtujog6o02yx1fnz0psutn0a`}
             zoom={[0.5]}
             // center={[this.state.lon, this.state.lat]}
             containerStyle={{ height: '40em' }}>
             <Layer
-            style={`mapbox://styles/garrettmoore/cjtugkdx6002k1fny6sd7rj5b`}
+            style={`mapbox://styles/garrettmoore/cjtujog6o02yx1fnz0psutn0a`}
             // center={[this.state.lon, this.state.lat]}
             />
           </Map>

@@ -7,7 +7,7 @@ const News = () => {
         <div ClassName="Headline">
           <h3> Mass Attack in Brooklyn!</h3>
         </div>
-     </div>
+    </div>
   );
 
 }

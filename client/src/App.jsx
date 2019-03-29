@@ -7,6 +7,7 @@ import News from './Components/News'
 import Toggle from './Components/Toggle'
 import RobotMap from './Components/RobotMap'
 import StarbucksMap from './Components/StarbucksMap'
+import NewsDetail from './Components/NewsDetail';
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,10 @@ class App extends Component {
 {/* <StarbucksMap component={FindStarbucks}/> */}
 {/* <RobotMap component={FindRobots}/> */}
 <News />
+        <News />
+        <NewsDetail />
+        <WorldMap />
+        <News />
       </div>
     );
   }

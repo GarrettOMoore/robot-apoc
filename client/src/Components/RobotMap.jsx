@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import ReactMapboxGl, { Marker } from 'react-mapbox-gl';
+import ReactMapboxGl, { Marker, Layer } from 'react-mapbox-gl';
 
 class RobotMap extends Component {
     constructor(props) {
       super(props);
       this.state = {
-        lat: 47.6062,
-        lon: 122.3321
+        lat: 37.7749,
+        lon: 122.4194
       };
     }
     render() {
       const Map = new ReactMapboxGl({
         accessToken:
           'pk.eyJ1IjoiZ2FycmV0dG1vb3JlIiwiYSI6ImNqdHQ0dWMyZzE3bDMzemxsNDJkM3hrdnoifQ.1v2jNBqVj1p6jhAKJkHY0A',
-        center: [this.state.lon, this.state.lat]
+        // center: [this.state.lon, this.state.lat]
       });
       return (
         <>
@@ -22,22 +22,14 @@ class RobotMap extends Component {
           <p>HARSH ZONES BELOW / AVOID</p>
           <Map
             height='200px'
-            style={`mapbox://styles/garrettmoore/cjtt6bbyl06i81fnrf8jrb24u`}
-            zoom={[1.5]}
-            center={[this.state.lon, this.state.lat]}
+            style={`mapbox://styles/garrettmoore/cjtugkdx6002k1fny6sd7rj5b`}
+            zoom={[0.5]}
+            // center={[this.state.lon, this.state.lat]}
             containerStyle={{ height: '40em' }}>
-            <Marker
-              coordinates={[this.state.lon, this.state.lat]}
-              anchor='bottom'>
-              <img
-                alt='marker'
-                src={
-                  'https://www.shareicon.net/download/2015/12/05/682942_map.svg'
-                }
-                width='42px'
-                height='42px'
-              />
-            </Marker>
+            <Layer
+            style={`mapbox://styles/garrettmoore/cjtugkdx6002k1fny6sd7rj5b`}
+            // center={[this.state.lon, this.state.lat]}
+            />
           </Map>
         </>
       );

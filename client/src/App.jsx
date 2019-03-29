@@ -27,16 +27,10 @@ class App extends Component {
 {/* <RobotMap component={FindRobots}/> */}
 <News />
 {/* <NewsDetail /> */}
+        <SignUp />
+        <News />
 </div>
-        {/* <WorldMap /> */}
-        <Toggle />
-        <StarbucksMap component={FindStarbucks}/>
-        {/* <RobotMap component={FindRobots}/> */}
-        {/* <News /> */}
-        {/* <SignUp /> */}
-          <News />
-        {/* <WorldMap /> */}
-      </div>
+
     );
   }
 }

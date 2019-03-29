@@ -22,12 +22,20 @@ class StarbucksMap extends Component {
           <h4>Find salvation amongst your </h4>
           <p>Find a Starbunker near you!</p>
 
+
+          <h4>Starbucks Map Page</h4>
+          <h4>User will be redirected here after submitting zip</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut porro, saepe quia dolorum in accusamus necessitatibus, pariatur, totam fugiat aspernatur recusandae laboriosam quasi inventore soluta veniam quos. Animi, corrupti dolor.</p>
+          <Map
+
         <Map
+
             height='200px'
             style={`mapbox://styles/garrettmoore/cjtuh2gkn00ja1gt3xa94pqmo`}
             zoom={[0.5]}
             // center={[this.state.lon, this.state.lat]}
             containerStyle={{ height: '40em' }}>
+
             <Layer
             style={`https://api.mapbox.com/styles/v1/garrettmoore/cjtuh2gkn00ja1gt3xa94pqmo.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZ2FycmV0dG1vb3JlIiwiYSI6ImNqc294aTc3bzByZXQzeW14dTlmbmkwamwifQ.un-bDQF-7GfJMc0NfTRpLg#0.6/0.000000/0.000000/0`}
             // center={[this.state.lon, this.state.lat]}

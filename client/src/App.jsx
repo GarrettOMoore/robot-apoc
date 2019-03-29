@@ -23,19 +23,10 @@ class App extends Component {
         <Image src={Logo} fluid />
         <Counter />
         <Toggle />
-        {/* <WorldMap /> */}
-        <StarbucksMap />
-
-        <FindStarbucks />
-        {/* <StarbucksMap component={FindStarbucks}/> */}
-        {/* <RobotMap component={FindRobots}/> */}
-        {/* <News /> */}
-        {/* <NewsDetail /> */}
-    
+        <News />
         <SignUp />
         <News />
-        </Container>
-      </div>
+</div>
     );
   }
 }

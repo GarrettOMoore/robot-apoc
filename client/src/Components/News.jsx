@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Card } from 'react-bootstrap';
 
-    
 class News extends Component {
   constructor(props) {
     super(props);

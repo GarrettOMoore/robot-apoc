@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
+import { Card, InputGroup, FormControl, Button } from 'react-bootstrap';
 
 const FindStarbucks = (props) => {
     return (
         <>
-        <h1>Find A Starbucks Near You</h1>
-        <input type='text' />
-        <button type='text'>Search</button>
+        <Card >
+          <InputGroup size="sm" className="md-3">
+            <InputGroup.Prepend>
+              <InputGroup.Text id="inputGroup-sizing-default">Find A Starbunker Near You</InputGroup.Text>
+            </InputGroup.Prepend>
+            <FormControl
+              aria-label="Default"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </InputGroup>
+        </ Card>
         </>
     )
 }

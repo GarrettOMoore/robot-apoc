@@ -24,7 +24,6 @@ class StarbucksMap extends Component {
           <h4>Find salvation amongst your </h4>
           <p>Find a Starbunker near you!</p>
 
-        <Container>
           <h4>Starbucks Map Page</h4>
           <h4>User will be redirected here after submitting zip</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut porro, saepe quia dolorum in accusamus necessitatibus, pariatur, totam fugiat aspernatur recusandae laboriosam quasi inventore soluta veniam quos. Animi, corrupti dolor.</p>
@@ -47,7 +46,6 @@ class StarbucksMap extends Component {
               />
             </Marker>
           </Map>
-          </Container>
         </>
       );
     }

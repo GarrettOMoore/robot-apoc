@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactMapboxGl, { Marker } from 'react-mapbox-gl';
+import { Container } from 'react-bootstrap';
 
 class StarbucksMap extends Component {
     constructor(props) {
@@ -22,6 +23,11 @@ class StarbucksMap extends Component {
           <h4>Starbunker Locator:</h4>
           <h4>Find salvation amongst your </h4>
           <p>Find a Starbunker near you!</p>
+
+        <Container>
+          <h4>Starbucks Map Page</h4>
+          <h4>User will be redirected here after submitting zip</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut porro, saepe quia dolorum in accusamus necessitatibus, pariatur, totam fugiat aspernatur recusandae laboriosam quasi inventore soluta veniam quos. Animi, corrupti dolor.</p>
           <Map
             height='200px'
             style={`mapbox://styles/garrettmoore/cjtt6bbyl06i81fnrf8jrb24u`}
@@ -41,6 +47,7 @@ class StarbucksMap extends Component {
               />
             </Marker>
           </Map>
+          </Container>
         </>
       );
     }

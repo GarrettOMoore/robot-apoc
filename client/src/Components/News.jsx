@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const News = () => {
-  return (
-    <div ClassName="Breaking">
-      <h2> Breaking News!</h2>
-        <div ClassName="Headline">
-          <h3> Mass Attack in Brooklyn!</h3>
+const News = (props) => {
+    return (
+        <>
+         <div ClassName="Breaking">
+          <h2> Breaking News!</h2>
         </div>
-    </div>
-  );
-
+          <p> See more... </p>
+        </>
+    )
 }
 
-export default News;
+export default News

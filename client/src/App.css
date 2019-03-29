@@ -31,3 +31,26 @@
     transform: rotate(360deg);
   }
 }
+
+.mapboxgl-canvas {
+  border: 5px solid red;
+  text-align: justify;
+}
+
+.mapboxgl-map {
+  /* border: 5px solid red; */
+  text-align: justify;
+  border-bottom: 5px solid red;
+}
+
+button {
+  border: 2px solid black;
+}
+
+input {
+  border: 2px solid black;
+}
+
+.Title {
+  font-family: 'Orbitron', sans-serif;
+}

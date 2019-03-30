@@ -18,7 +18,6 @@ class RobotMap extends Component {
       return (
         <>
           <h4>ROBOT MAP PAGE</h4>
-          <h4>STUFF HERE ROBOT</h4>
           <p>HARSH ZONES BELOW / AVOID</p>
           <Map
             height='200px'
@@ -31,6 +30,7 @@ class RobotMap extends Component {
             // center={[this.state.lon, this.state.lat]}
             />
           </Map>
+          
         </>
       );
     }

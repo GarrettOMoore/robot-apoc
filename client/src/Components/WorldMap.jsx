@@ -34,7 +34,7 @@ class WorldMap extends Component {
 
       return (
         <>
-          <p>Ominous tagline here</p>
+          {/* <p>Ominous tagline here</p> */}
           {/* <h4>Currently {this.state.humansAlive} Humans Alive...</h4> */}
           <Map
             height='200px'
@@ -47,7 +47,6 @@ class WorldMap extends Component {
              />
 
           </Map>
-
 
 
         </>

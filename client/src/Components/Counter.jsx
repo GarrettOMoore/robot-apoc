@@ -10,14 +10,14 @@ export class Counter extends React.Component {
     componentDidMount() {
         setInterval((e)=>{
             this.setState({
-                population: this.state.population - 3
+                population: this.state.population - 47
             })
         }, 800)
     }
 
     render() {
         return (
-            <p>{this.state.population} humans remaining...</p>
+            <p className='countdown'>{this.state.population} humans remaining...</p>
         )
     }
 }

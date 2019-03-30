@@ -1,5 +1,5 @@
 .container {
-  border: red solid 1px;
+  /* border: red solid 1px; */
 }
 
 .App {
@@ -37,15 +37,13 @@
 }
 
 .mapboxgl-canvas {
-  border: 5px solid red;
+  border: 5px solid black;
   text-align: justify;
 }
 
 .mapboxgl-map {
   /* border: 5px solid red; */
   text-align: justify;
-  border-bottom: 5px solid red;
-  border-right: 5px solid red;
 }
 
 button {
@@ -67,4 +65,26 @@ input {
 .button-box button {
   padding: 4px;
   margin: 8px;
+}
+.Title {
+  font-family: 'Santana-Black';
+}
+
+.img-fluid {
+  margin-right: 15px;
+}
+
+.frappy {
+  border: 2px solid black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.card-img {
+  display: none;
+}
+
+.countdown {
+  margin-top: 8px;
+  font-size: 22px;
 }

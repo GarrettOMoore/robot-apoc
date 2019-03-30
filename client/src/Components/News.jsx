@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Col, Card } from 'react-bootstrap';
 
 class News extends Component {
   constructor(props) {
@@ -33,17 +33,31 @@ class News extends Component {
 
         return (
           <>
-          {articleTitles}
+            <Card 
+              bg="warning"
+              text="white"
+            >
+              {/* <blockquote className="blockquote mb-0 card-body"> */}
+                <Card.Img />
+                {articleTitles}
+              {/* </blockquote> */}
+            </Card>
           </>
-        )
+        );
       } else {
         return (
-        <div>
-          <small onClick={this.clearArticle}>Back to articles</small>
-          <h3>{this.state.currentArticle.title}</h3>
-          <p>{this.state.currentArticle.detail}</p>
-        </div>
-      )
+          <div>
+            <Card bg="danger" text="white" >
+              <Card.Img variant="top" />
+
+              <small onClick={this.clearArticle}>
+                Back to articles
+              </small>
+              <h3>{this.state.currentArticle.title}</h3>
+              <p>{this.state.currentArticle.detail}</p>
+            </Card>
+          </div>
+        );
     }
   }
 }

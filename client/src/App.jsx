@@ -24,7 +24,6 @@ class App extends Component {
         <Container>
         <Image src={Logo} fluid />
         <Counter />
-        {/* <FindStarbucks /> */}
         <Toggle />
         <News />
         <Tab />

@@ -4,6 +4,7 @@
   "description": "Hackathon project",
   "main": "server.js",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.6",
     "react-mapbox-gl": "^4.2.0",
